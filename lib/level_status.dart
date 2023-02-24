@@ -27,7 +27,7 @@ class _Level_statusState extends State<Level_status> {
             crossAxisCount: 4, mainAxisSpacing: 5, crossAxisSpacing: 5),
         itemBuilder: (context, index) {
           return InkWell(onTap: () {
-            Navigator.pushNamed(context, "/");
+            Navigator.pushNamed(context, "/Quiz_page");
           },
             child: Container(
               alignment: Alignment.bottomLeft,
