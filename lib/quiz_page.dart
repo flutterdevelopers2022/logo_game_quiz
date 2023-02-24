@@ -20,7 +20,7 @@ class _Quiz_PageState extends State<Quiz_Page> {
                   colors: [Color(0xff0d45e0), Color(0xff4673f5)])),
         ),
         centerTitle: true,
-        title: Text("Choose Level"),
+        title: Text("Choose Level123"),
       ),
       body: PageView.builder(itemCount: 10,
         controller: PageController(initialPage: cur_level),
